@@ -1,0 +1,209 @@
+*{
+  font-family:'Montserrat', Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color:#eef2ff;  
+  overflow-x: hidden; 
+}
+.medium{
+  font-size:0.85em;
+}
+
+li::marker{
+  content: none;
+}
+header{
+  border-bottom: 2px solid #e0e7ff;
+  background-color:#eef2ff;
+  position:sticky;
+  top:0px;
+  padding: 5px 0;
+}
+
+#logo{
+  width:4.7rem;
+  padding-top:3px;
+  margin-left:1rem;
+  margin-top: 0.5rem;
+}
+
+.nav-item{
+  padding:0.8rem; 
+}
+
+.nav-link{
+  color:inherit;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  cursor:pointer;
+  color:#6366f1;
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+
+#links{
+  display:none;
+}
+
+.menu-btn{
+  cursor:pointer;
+  background-color:unset;
+  border:none;
+  width:2.5rem;
+  position: absolute;
+  right:0.6em;
+  top:1.69em;  
+}
+
+@media only screen and (min-width:885px){
+#links{ 
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu-btn{
+  right:-10rem;
+}
+
+#logo{
+position:absolute;
+top:-0.5rem;
+right:91.3%;
+}
+}
+.img-container{
+    background-image: url('https://res.cloudinary.com/dx9mnazdx/image/upload/v1721428060/lasjw-guestroom-0112-hor-pano_hbuqab.webp');
+    background-size:cover;
+    background-position:center;
+    color: #2f2f47;
+    font-size:1.50rem;
+    padding:4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .h-1{
+    font-size:130%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing:3px;
+  
+  }
+
+  .flex{
+    display:flex;
+  }
+
+  .text{
+    color:#6a6d74;
+    text-align: center;
+    font-size:0.8em;
+  }
+
+  .item{
+    border-bottom:2px solid #e0e7ff;
+    margin-top:0.69rem;
+    flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:center;
+    gap:1rem;
+    padding:10px;
+  }
+
+  .service{
+    width:60%;
+    height:100%;
+    padding:1rem;
+    border:2px solid #e0e7ff;
+    gap:1.6rem;
+  }
+
+  .service:hover{
+    background-color:#dee5fe;
+    cursor:pointer;
+  }
+
+  .title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+
+  img{
+    cursor:pointer;
+  }
+
+  .room{
+    width:60%;
+    height:100%;
+    margin-left:20%;
+  }
+
+  .caption{
+    font-size:0.9rem;
+    font-weight:600;
+    color:#39393b;
+    margin-bottom:2%;
+  }
+
+  .description{
+    margin-bottom:2%;
+  }
+
+  .round{
+    border-radius:10px;
+  }
+
+  .pricing{
+    border:2px solid #e0e7ff;
+    padding:1rem;
+  }
+
+  .button{
+   background-color: #686bf1;
+   border:none;
+   padding:0.8em;
+   color:#fff;  
+  }
+  .button:hover{
+    background-color: #5154f7;
+    filter: drop-shadow(1px 1px 8px #797676);
+   }
+
+ footer{
+  background-color: #6366f1;
+  flex-direction: column;
+  align-items: center;
+ }
+
+.contact{
+  color:#eef2ff73;
+}
+figure{
+  margin-bottom:3%;
+}
+@media only screen and (min-width:560px){
+        .img-container{
+        font-size: 2.30rem;
+        padding:12rem;
+      }
+
+      .service{
+        width:40%;
+        height:40%;
+      }
+
+      .room{
+        width:40%;
+        margin-left:30%;
+      }
+    }

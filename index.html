@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIMICA Soft</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a id="home" href="#">
+          <img
+            src="https://res.cloudinary.com/dx9mnazdx/image/upload/v1721400503/image-010_lhu14t-removebg-preview_kt7e2c.png"
+            alt="logo del hotel"
+            id="logo"
+            class="nav-link"
+        /></a>
+        <div id="links">
+
+          <li class="nav-item">
+            <a class="nav-link medium" href="#habitaciones">Habitaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link medium" href="#precios">Precios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link medium" href="#reservar">Reservar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link medium" href="#contacto">Contacto</a>
+          </li>
+        </div>
+        <button class="menu-btn" type="button" onclick="toggleMenu()">
+          <img
+            src="https://res.cloudinary.com/dx9mnazdx/image/upload/v1721404811/hamburger_c3mvp3.png"
+            alt="toggle-navbar-button"
+          />
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section class="img-container flex">
+        <h1 class="h-1">Bienvenidos a nuestro hotel</h1>
+      </section>
+      <section>
+        <h2 class="title" id="servicios">Servicios</h2>
+        <div class="item flex">
+          <div class="service round">
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              tempus maximus lectus quis venenatis. Cras eu nisi quis arcu
+              viverra tincidunt eu a lorem.
+            </p>
+          </div>
+          <div class="service round">
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              tempus maximus lectus quis venenatis. Cras eu nisi quis arcu
+              viverra tincidunt eu a lorem.
+            </p>
+          </div>
+          <div class="service round">
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              tempus maximus lectus quis venenatis. Cras eu nisi quis arcu
+              viverra tincidunt eu a lorem.
+            </p>
+          </div>
+          <div class="service round">
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              tempus maximus lectus quis venenatis. Cras eu nisi quis arcu
+              viverra tincidunt eu a lorem.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="item flex">
+        <h2 class="title" id="habitaciones">Habitaciones</h2>
+        <div class="item flex">
+          <figure>
+            <img
+              class="room round"
+              src="https://picsum.photos/1080/720/"
+              alt="random example img"
+            />
+            <figcaption class="text">
+              Lorem ipsum dolor sit amet, consectetur, microdosing tousled
+              waistcoat.
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              class="room round"
+              src="https://picsum.photos/1080/720/"
+              alt="random example img"
+            />
+            <figcaption class="text">
+              Lorem ipsum dolor sit amet, consectetur, microdosing tousled
+              waistcoat.
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              class="room round"
+              src="https://picsum.photos/1080/720/"
+              alt="random example img"
+            />
+            <figcaption class="text">
+              Lorem ipsum dolor sit amet, consectetur, microdosing tousled
+              waistcoat.
+            </figcaption>
+          </figure>
+          <figure>
+            <img
+              class="room round"
+              src="https://picsum.photos/1080/720/"
+              alt="random example img"
+            />
+            <figcaption class="text">
+              Lorem ipsum dolor sit amet, consectetur, microdosing tousled
+              waistcoat.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="item flex">
+        <h2 class="title" id="precios">Precios</h2>
+        <div class="pricing round">
+          <p class="caption">Lorem Ipsum</p>
+          <p class="text description">
+            Fusce sed lacus convallis, dapibus odio
+          </p>
+          <p>$9.99</p>
+        </div>
+        <div class="pricing round">
+          <p class="caption">Lorem Ipsum</p>
+          <p class="text description">
+            Fusce sed lacus convallis, dapibus odio
+          </p>
+          <p>$9.99</p>
+        </div>
+        <div class="pricing round">
+          <p class="caption">Lorem Ipsum</p>
+          <p class="text description">
+            Fusce sed lacus convallis, dapibus odio
+          </p>
+          <p>$9.99</p>
+        </div>
+        <div class="pricing round">
+          <p class="caption">Lorem Ipsum</p>
+          <p class="text description">
+            Fusce sed lacus convallis, dapibus odio
+          </p>
+          <p>$9.99</p>
+        </div>
+        <a href="reservar.html">
+        <button type="button" id="reservar" class="button round">
+          Reservar
+        </button>
+      </a>
+      </section>
+    </main>
+    <footer class="flex">
+      <p class="contact" id="contacto">Contactanos:</p>
+      <p></p>
+      <p class="contact">email.adress@contact.com</p>
+      <p class="contact">+61 000 003 008</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

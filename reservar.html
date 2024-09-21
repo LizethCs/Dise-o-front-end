@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservar</title>
+    <link rel="stylesheet" href="styles/reservar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">Haz tu reserva</h1>
+    <form action="" id="form">
+      <fieldset>
+        <label for="name" id="name-label"
+          >Nombre
+          <input
+            type="text"
+            id="name"
+            required
+            placeholder="Ingrese su nombre(s)"
+            class="input-height input"
+          />
+        </label>
+            <label for="last-name" id="last-name-label"
+              >Apellidos
+              <input
+                type="text"
+                id="name"
+                required
+                placeholder="Ingrese sus apellidos"
+                class="input-height input"
+              />
+            </label>
+        <label for="email" id="email-label"
+          >Email
+          <input
+            type="email"
+            id="email"
+            required
+            placeholder="Ingrese su email"
+            class="input-height input"
+          />
+        </label>
+        <label for="address" id="address-label"
+          >Dirección
+          <input
+            type="text"
+            id="address"
+            placeholder="Dirección"
+            class="input-height input"
+          />
+        </label>
+        <label for="number" id="number-label"
+          >Télefono
+          <input
+            type="number"
+            id="number"
+            required
+            placeholder="Número de contacto"
+            class="input-height input"
+          />
+        </label>
+        <label for="dropdown" id=""
+          >Tipo de identificación
+          <select name="dropdown" id="dropdown">
+            <option value="" class="input">Seleccione el documento</option>
+            <option value="CC" class="input">CC</option>
+            <option value="CE" class="input">CE</option>
+            <option value="PEP" class="input">PEP</option>
+            <option value="PPT" class="input">PPT</option>
+          </select>
+          <label for="ID" id="ID-label"
+            >Documento
+            <input
+              type="number"
+              id="ID"
+              required
+              placeholder="Número de documento"
+              class="input-height input"
+            />
+          </label>
+          <label for="num-persons" id="num-persons-label"
+            >Número de personas
+            <input
+              type="number"
+              id="num-persons"
+              required
+              placeholder="# de personas en la reserva"
+              class="input-height input"
+            />
+          </label>
+          <label for="init-date" id="init-date-label"
+            >Fecha Inicio
+            <input
+              type="date"
+              id="init-date"
+              required
+              placeholder="Fecha inicio de reserva"
+              class="input-height input"
+            />
+          </label>
+          <label for="end-date" id="end-date-label"
+            >Fecha Fin
+            <input
+              type="date"
+              id="end-date"
+              required
+              placeholder="Fecha fin de reserva"
+              class="input-height input"
+            />
+          </label>
+        </label>
+        <label for="" class="sub-label">¿Qué servicios desea?</label>
+        <label for="" class="check-label"
+          ><input
+            type="checkbox"
+            name="piscina"
+            value="piscina"
+            id="piscina"
+            class="inline"
+          />
+          Piscina</label
+        >
+        <label for="" class="check-label"
+          ><input
+            type="checkbox"
+            name="restaurante"
+            value="restaurante"
+            id="restaurante"
+            class="inline"
+          />
+          Restaurante</label
+        >
+        <button id="submit">Reservar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
